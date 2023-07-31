@@ -5,66 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./pictures/favicon.png">
-    <meta property="og:">
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Curriculum Vitae</title>
 </head>
 <body>
-    <header>
-        <section>
-            <img src="./pictures/IMG_20200914_075210_750 (2).jpg" alt="Photographie de Léa Kugler">
-            <h1>Léa Kugler</h1>
-            <p>Développeuse web junior</p>
-        </section>
-        <section>
-            <address>
-                <p><a href="https://www.google.com/maps/place/France/@45.021133,-0.3951243,5.7z/data=!4m6!3m5!1s0xd54a02933785731:0x6bfd3f96c747d9f7!8m2!3d46.227638!4d2.213749!16zL20vMGY4bDlj?authuser=0&entry=ttu">France</a></p>
-                <p><a href="mailto: test@gmail.com">test@gmail.com</a></p>
-                <p><a href="telto:0606060606">0606060606</a></p>
+    <header class="header">
+        <div class="header_presentation">
+            <figure class="header_presentation_pictures">
+                <img src="./pictures/IMG_20200914_075210_750.jpg" alt="Photographie de Léa Kugler" id="Léa">
+            </figure>
+        </div>
+        <div class="header_entitled">
+            <p id="NomPrénom">Léa Kugler</p>
+            <p id="Job">Développeuse web junior</p>
+        </div>
+        <div class="header_contact">
+            <address class="header_contact_address">
+                <p><a href="https://www.google.com/maps/place/France/@45.021133,-0.3951243,5.7z/data=!4m6!3m5!1s0xd54a02933785731:0x6bfd3f96c747d9f7!8m2!3d46.227638!4d2.213749!16zL20vMGY4bDlj?authuser=0&entry=ttu" class="header_contact_address_position">France</a></p>
+                <p><a href="mailto:test@gmail.com" class="header_contact_address_mail">test@gmail.com</a></p>
+                <p><a href="telto:0606060606" class="header_contact_address_phone_number">0606060606</a></p>
             </address>
-        </section>
+        </div>
     </header>
     <main>
-        <section>
-            <h3>A propos</h3>
-                <p>Ayant obtenue mon Titre Professionnel de Développeur Web et Web Mobile (DWWM), je suis à la recherche d'un poste de développeur web en contrat à durée indéterminée.</p>
-            <h3>Langues parlées</h3>
-                <ul>
-                    <li>Français-Langue maternelle</li>
-                    <li>Anglais-Intermédiaire</li>
-                    <li>Espagnol-Débutant</li>
-                </ul>
-            <h3>Centres d'intérêt</h3>
-                <ul>
-                    <li>Jeux vidéo</li>
-                    <li>Documentaires et livres scientifiques</li>
-                    <li>Sports collectifs en général</li>
-                    <li>Séries américaines</li>
-                    <li>Dessin</li>
-                </ul>
+        <section class="perso">
+            <div class="perso_searchjob">
+                <h3>A propos</h3>
+                    <p class="perso_searchjob_propos">Ayant obtenue mon Titre Professionnel de Développeur Web et Web Mobile (DWWM), je suis à la recherche d'un poste de développeur web en contrat à durée indéterminée.</p>
+            </div>
+            <div class="perso_languages">
+                <h3>Langues parlées</h3>
+                    <ul class="perso_languages_list">
+                        <li>Français-Langue maternelle</li>
+                        <li>Anglais-Intermédiaire</li>
+                        <li>Espagnol-Débutant</li>
+                    </ul>
+            </div>
+            <div class="interest">
+                <h3>Centres d'intérêt</h3>
+                    <ul class="interest_list">
+                        <li>Jeux vidéo</li>
+                        <li>Documentaires et livres scientifiques</li>
+                        <li>Sports collectifs en général</li>
+                        <li>Séries américaines</li>
+                        <li>Dessin</li>
+                    </ul>
+            </div>
         </section>
-        <section>
+        <section class="pro">
+            <div class="pro_experience">
             <h3>Expériences professionnelles</h3>
-                <h4>Factrice</h4>
-                    <p>La Poste Centre de distribution
-                    04 Décembre 2021 au 03 Septembre 2022 (9 mois) puis du 01 Février 2023 à aujourd'hui</p>
-                        <ul>
+                <div class="pro_experience_poste">
+                    <h4>Factrice</h4>
+                        <p class="pro_experience_poste-when">La Poste Centre de distribution
+                        04 Décembre 2021 au 03 Septembre 2022 (9 mois) puis du 01 Février 2023 à aujourd'hui</p>
+                        <ul class="pro_experience_poste_when_list">
                             <li>Tri du courrier et des colis</li>
                             <li>Distribution de denrées alimentaires</li>
                             <li>Distribution du courrier et des colis sur plurieurs tournées</li>
                         </ul>
-                <h4>Apprentie responsable de secteur décoration</h4>
-                    <p>Bricomarché de Châtellerault
+                </div>
+                <div class="pro_experience_bricomarché">            
+                    <h4>Apprentie responsable de secteur décoration</h4>
+                        <p class="pro_experience_bricomarché_when">Bricomarché de Châtellerault
                         05 Septembre 2022 au 19 Janvier 2023 (5 Mois)</p>
-                        <ul>
+                        <ul class="pro_experience_bricomarché_when_list">
                             <li>Participation au projet Label Commerçant Responsable</li>
                             <li>Participation à la mise en place de la Responsabilité Sociétale des Entreprises</li>
                             <li>Participation à la préparation de l'audit de sécurité</li>
                         </ul>
-
-                <h4>Formatrice et chargée d'accueil</h4>
-                    <p>McDonald's Croutelle
+                </div>
+                <div class="pro_experience_mcdo">
+                    <h4>Formatrice et chargée d'accueil</h4>
+                        <p class="pro_experience_mcdo_when">McDonald's Croutelle
                         16 Avril 2019 au 4 Décembre 2021 (2ans et 8mois)</p>
-                        <ul>
+                        <ul class="pro_experience_mcdo_when_list">
                             <li>Former les employés à différents postes et aux règles d'hygiène et de sécurités</li>
                             <li>Accueillir les clients au sein du restaurant et du drive</li>
                             <li>Prise et préparation de commandes</li>
@@ -72,71 +87,93 @@
                             <li>Veiller à la bonne tenue du comptoir et à son remplissage</li>
                             <li>Aide manager dans la gestion des équipiers et coachin</li>
                         </ul>
-                <h4>Professeure remplaçante</h4>
-                    <p>Collèges de Poitiers et alentours
+                </div>
+                <div class="pro_experience_prof">
+                    <h4>Professeure remplaçante</h4>
+                        <p class="pro_experience_prof_when">Collèges de Poitiers et alentours
                         29 Mars 2021 au 07 Juillet 2021 (5mois)</p>
-                        <ul>
+                        <ul class="pro_experience_prof_when_list">
                             <li>Mise en pratique de la pédagogie et de la didactique</li>
                             <li>Construction des cours</li>
                             <li>Utilisation du logiciel pronote (faire l'appel, cahier de texte)</li>
                             <li>Donner des cours en distanciel et présentiel</li>
                             <li>Entrer des notes bonus</li>
                         </ul>
-                <h4>Gendarme adjoint de réserve assermentée</h4>
-                    <p>Gendarmerie Nationale
+                </div>
+                <div class="pro_experience_gendarmerie">
+                    <h4>Gendarme adjoint de réserve assermentée</h4>
+                        <p class="pro_experience_gendarmerie_when">Gendarmerie Nationale
                         4 Novembre 2016 au 25 Mars 2023 (6ans et 5 mois)</p>
-                        <ul>
+                        <ul class="pro_experience_gendarmerie_when_list">
                             <li>Faire respecter la loi</li>
                             <li>Surveillance du territoire et du poste de police</li>
                             <li>Prévention et répression</li>
                         </ul>
-            <h3>Diplômes/Formations</h3>
-                <h4>Maîtrise métiers de l'enseignement, de l'éducation et de la formation option SVT (M1 MEEF SVT)</h4>
-                    <p>De Septembre 2020 à Septembre 2021</p>
-                    <p>Institut national supérieur du professorat et de l'éducation, Académi de Poitiers</p>
-                <h4>Licence Sciences de la vie spécialité biologie générale sciences de la terre et de l'univers (BGSTU) option professeur des écoles</h4>
-                    <p>De Septembre 2016 à Septembre 2020</p>    
-                    <p>Université de Poitiers</p>
-                <h4>Brevet de la préparation aux missions de la gendarmerie</h4>
-                    <p>Du 24 Octobre 2016 au 2 Novembre 2016</p>
-                    <p>Gendarmerie Nationale</p>
-                <h4>Certificat prévention et secours civiques de niveau 1 : PSC1</h4>
-                    <p>Du 24 Octobre 2016 au 2 Novembre 2016</p>
-                    <p>Gendarmerie Nationale</p>
-                <h4>Baccalauréat scientifique option sciences de la vie et de la Terre</h4>
-                    <p>De Septembre 2014 à Septembre 2016</p>
-                    <p>Lycée Paul Guérin</p>
-            <h3>Compétences</h3>
-                <ul>
-                    <li>HTML5-Débutant</li>
-                    <li>CSS-Débutant</li>
-                    <li>GitHub-Débutant</li>
-                    <li>Travail d'équipe</li>
-                    <li>Capacité d'adaptation</li>
+                </div>
+            </div>
+            <div class="pro_formation">
+                <h3>Diplômes/Formations</h3>
+                    <div class="pro_formation_meef">
+                    <h4>Maîtrise métiers de l'enseignement, de l'éducation et de la formation option SVT (M1 MEEF SVT)</h4>
+                        <p class="pro_formation_meef_when">De Septembre 2020 à Septembre 2021</p>
+                        <p class="pro_formation_meef_when_where">Institut national supérieur du professorat et de l'éducation, Académi de Poitiers</p>
+                    </div>
+                    <div class="pro_formation_l3">
+                        <h4>Licence Sciences de la vie spécialité biologie générale sciences de la terre et de l'univers (BGSTU) option professeur des écoles</h4>
+                            <p class="pro_formation_l3_when">De Septembre 2016 à Septembre 2020</p>    
+                            <p class="pro_formation_l3_where">Université de Poitiers</p>
+                    </div>
+                    <div class="pro_formation_missions">
+                        <h4>Brevet de la préparation aux missions de la gendarmerie</h4>
+                            <p class="pro_formation_missions_when">Du 24 Octobre 2016 au 2 Novembre 2016</p>
+                            <p class="pro_formation_missions_where">Gendarmerie Nationale</p>
+                    </div>
+                    <div class="pro_formation_psc1">
+                        <h4>Certificat prévention et secours civiques de niveau 1 : PSC1</h4>
+                            <p class="pro_formation_psc1_when">Du 24 Octobre 2016 au 2 Novembre 2016</p>
+                            <p class="pro_formation_psc1_where">Gendarmerie Nationale</p>
+                    </div>
+                    <div class="pro_formation_bac">
+                        <h4>Baccalauréat scientifique option sciences de la vie et de la Terre</h4>
+                            <p class="pro_formation_bac_when">De Septembre 2014 à Septembre 2016</p>
+                            <p class="pro_formation_bac_where">Lycée Paul Guérin</p>
+                    </div>
+            </div>
+            <div class="pro_skills">
+                <h3>Compétences</h3>
+                    <ul class="pro_skills_list">
+                        <li>HTML5-Débutant</li>
+                        <li>CSS-Débutant</li>
+                        <li>GitHub-Débutant</li>
+                        <li>Travail d'équipe</li>
+                        <li>Capacité d'adaptation</li>
                 </ul>
+            </div>
         </section>
     </main>
     <footer>
-        <div class="social-share">
-            <a href="https://www.instagram.com/leakglrcode/" class="social-icon" target="_blank">
-                <img src="./pictures/instagram (2).png" alt="Logo Instagram">
-            </a>
-            <p>By Laisa Islam Ani</p>
-        </div>
-        <div class="social-share">
-            <a href="https://www.facebook.com/profile.php?id=100095303560501" class="social-icon" target="_blank">
-                <img src="./pictures/facebook.png" alt="Logo Facebook">
-            </a>
-            <p>By Freepik</p>
-        </div>
-        <div class="social-share">
-            <a href="https://www.linkedin.com/feed/" class="social-icon" target="_blank">
-                <img src="./pictures/linkedin.png" alt="Logo Linkedin">
-            </a>
-            <p>By Rakib Hassan Rahim</p>
-        </div>
-        <div>
-            <p>Dernière mise à jour le <time datetime="2023-07-30T18:00">30 Juillet 2023</time></p>
+        <div class="social_share">
+            <div class="social_share_instagram">
+                <a href="https://www.instagram.com/leakglrcode/" class="social_share_instagram_icon" target="_blank">
+                    <img src="./pictures/instagram.png" alt="Logo Instagram">
+                </a>
+                <p>By Laisa Islam Ani</p>
+            </div>
+                <div class="social_share_facebook">
+                <a href="https://www.facebook.com/profile.php?id=100095303560501" class="social_share_facebook_icon" target="_blank">
+                    <img src="./pictures/facebook.png" alt="Logo Facebook">
+                </a>
+                <p>By Freepik</p>
+            </div>
+            <div class="social_share_linkedin">
+                <a href="https://www.linkedin.com/feed/" class="social_share_linkedin_icon" target="_blank">
+                    <img src="./pictures/linkedin.png" alt="Logo Linkedin">
+                </a>
+                <p>By Rakib Hassan Rahim</p>
+            </div>
+            <div class="date">
+                <p class="date_maj">Dernière mise à jour le <time datetime="2023-07-30T18:00">30 Juillet 2023</time></p>
+            </div>
         </div>
     </footer>
 </body>

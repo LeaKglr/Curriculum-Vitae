@@ -9,19 +9,23 @@
     <title>Curriculum Vitae</title>
 </head>
 <body>
+    <div class="all">
     <header class="header">
         <div class="header_presentation">
-            <figure class="header_presentation_pictures">
-                <img src="./pictures/IMG_20200914_075210_750.jpg" alt="Photographie de Léa Kugler" id="Léa">
-            </figure>
-        </div>
-        <div class="header_entitled">
-            <p id="NomPrénom">Léa Kugler</p>
-            <p id="Job">Développeuse web junior</p>
-        </div>
+            <div class="header_presentation_me">
+                <div class="header_presentation_me_figure">
+                    <figure class="header_presentation_me_pictures">
+                        <img src="./pictures/IMG_20200914_075210_750.jpg" alt="Photographie de Léa Kugler" id="Léa">
+                    </figure>
+                </div>
+                <div class="header_presentation_me_entitled">
+                    <p id="NomPrénom">Léa Kugler</p>
+                    <p id="Job">Développeuse web junior</p>
+                </div>
+            </div>
         <div class="header_contact">
             <address class="header_contact_address">
-                <p><a href="https://www.google.com/maps/place/France/@45.021133,-0.3951243,5.7z/data=!4m6!3m5!1s0xd54a02933785731:0x6bfd3f96c747d9f7!8m2!3d46.227638!4d2.213749!16zL20vMGY4bDlj?authuser=0&entry=ttu" class="header_contact_address_position">France</a></p>
+                <p><a href="https://www.google.com/maps/place/France/@45.021133,-0.3951243,5.7z/data=!4m6!3m5!1s0xd54a02933785731:0x6bfd3f96c747d9f7!8m2!3d46.227638!4d2.213749!16zL20vMGY4bDlj?authuser=0&entry=ttu" class="header_contact_address_position" target="_blank">France</a></p>
                 <p><a href="mailto:test@gmail.com" class="header_contact_address_mail">test@gmail.com</a></p>
                 <p><a href="telto:0606060606" class="header_contact_address_phone_number">0606060606</a></p>
             </address>
@@ -30,11 +34,15 @@
     <main>
         <section class="perso">
             <div class="perso_searchjob">
-                <h3>A propos</h3>
+                <div class="perso_searchjob_titre1">
+                    <h3 class="titre_perso">A propos</h3>
+                </div>
                     <p class="perso_searchjob_propos">Ayant obtenue mon Titre Professionnel de Développeur Web et Web Mobile (DWWM), je suis à la recherche d'un poste de développeur web en contrat à durée indéterminée.</p>
             </div>
             <div class="perso_languages">
-                <h3>Langues parlées</h3>
+                <div class="perso_searchjob_titre2">
+                    <h3 class="titre_perso">Langues parlées</h3>
+                </div>
                     <ul class="perso_languages_list">
                         <li>Français-Langue maternelle</li>
                         <li>Anglais-Intermédiaire</li>
@@ -42,7 +50,9 @@
                     </ul>
             </div>
             <div class="interest">
-                <h3>Centres d'intérêt</h3>
+                <div class="perso_searchjob_titre3">
+                    <h3 class="titre_perso">Centres d'intérêt</h3>
+                </div>
                     <ul class="interest_list">
                         <li>Jeux vidéo</li>
                         <li>Documentaires et livres scientifiques</li>
@@ -54,7 +64,9 @@
         </section>
         <section class="pro">
             <div class="pro_experience">
-            <h3>Expériences professionnelles</h3>
+                <div class="bordercolor1">
+                    <h3 class="titre_pro">Expériences professionnelles</h3>
+                </div>
                 <div class="pro_experience_poste">
                     <h4>Factrice</h4>
                         <p class="pro_experience_poste-when">La Poste Centre de distribution
@@ -112,7 +124,9 @@
                 </div>
             </div>
             <div class="pro_formation">
-                <h3>Diplômes/Formations</h3>
+                <div class="bordercolor1">
+                    <h3 class="titre_pro">Diplômes/Formations</h3>
+                </div>
                     <div class="pro_formation_meef">
                     <h4>Maîtrise métiers de l'enseignement, de l'éducation et de la formation option SVT (M1 MEEF SVT)</h4>
                         <p class="pro_formation_meef_when">De Septembre 2020 à Septembre 2021</p>
@@ -140,7 +154,9 @@
                     </div>
             </div>
             <div class="pro_skills">
-                <h3>Compétences</h3>
+                <div class="bordercolor1">
+                    <h3 class="titre_pro">Compétences</h3>
+                </div>
                     <ul class="pro_skills_list">
                         <li>HTML5-Débutant</li>
                         <li>CSS-Débutant</li>
@@ -154,27 +170,28 @@
     <footer>
         <div class="social_share">
             <div class="social_share_instagram">
-                <a href="https://www.instagram.com/leakglrcode/" class="social_share_instagram_icon" target="_blank">
-                    <img src="./pictures/instagram.png" alt="Logo Instagram">
+                <a href="https://www.instagram.com/leakglrcode/" class="social_share_instagram_link" target="_blank">
+                    <img src="./pictures/instagram.png" alt="Logo Instagram" class="social_share_instagram_icon">
                 </a>
                 <p>By Laisa Islam Ani</p>
             </div>
                 <div class="social_share_facebook">
-                <a href="https://www.facebook.com/profile.php?id=100095303560501" class="social_share_facebook_icon" target="_blank">
-                    <img src="./pictures/facebook.png" alt="Logo Facebook">
+                <a href="https://www.facebook.com/profile.php?id=100095303560501" class="social_share_facebook_link" target="_blank">
+                    <img src="./pictures/facebook.png" alt="Logo Facebook" class="social_share_facebook_icon">
                 </a>
                 <p>By Freepik</p>
             </div>
             <div class="social_share_linkedin">
-                <a href="https://www.linkedin.com/feed/" class="social_share_linkedin_icon" target="_blank">
-                    <img src="./pictures/linkedin.png" alt="Logo Linkedin">
+                <a href="https://www.linkedin.com/feed/" class="social_share_linkedin_link" target="_blank">
+                    <img src="./pictures/linkedin.png" alt="Logo Linkedin" class="social_share_linkedin_icon">
                 </a>
                 <p>By Rakib Hassan Rahim</p>
             </div>
-            <div class="date">
-                <p class="date_maj">Dernière mise à jour le <time datetime="2023-07-30T18:00">30 Juillet 2023</time></p>
-            </div>
+        </div>
+        <div class="date">
+            <p class="date_maj">Dernière mise à jour le <time datetime="2023-07-30T18:00">30 Juillet 2023</time></p>
         </div>
     </footer>
+    </div>
 </body>
 </html>
